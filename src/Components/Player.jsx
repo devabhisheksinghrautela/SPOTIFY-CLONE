@@ -1,6 +1,5 @@
 import {songsData} from '../assets/assets'
 import { assets } from '../assets/assets'
-import React from 'react'
 
 const Player = () => {
   return (
