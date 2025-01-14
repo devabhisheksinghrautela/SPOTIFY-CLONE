@@ -1,3 +1,4 @@
+import Player from './Components/Player'
 import Sidebar from './Components/Sidebar'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
 
       </div>
       
+     <Player />
        </div>
   )
 }
