@@ -1,4 +1,5 @@
 
+import DisplayAlbum from './DisplayAlbum'
 import DisplayHome from './DisplayHome'
 import {Routes, Route} from 'react-router-dom'
 
@@ -8,6 +9,9 @@ const Display = () => {
      <Routes>
      <Route>
      <Route path='/' element={<DisplayHome/>} />
+     <Route>
+     <Route path='/album/:id' element={<DisplayAlbum/>} />
+     </Route>
      </Route>
      </Routes>
     </div>
